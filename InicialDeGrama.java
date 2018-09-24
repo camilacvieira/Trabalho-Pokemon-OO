@@ -1,5 +1,5 @@
 
-public class InicialDeGrama {
+public class InicialDeGrama extends Pokemon{
 	String nome;
 	String tipo;
 	int evolucao;
