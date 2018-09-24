@@ -1,5 +1,5 @@
 
-public class InicialDeAgua {
+public class InicialDeAgua extends Pokemon{
 	String nome;
 	String tipo;
 	int evolucao;
