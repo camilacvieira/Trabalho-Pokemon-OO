@@ -1,5 +1,5 @@
 
-public class InicialDeAgua extends Pokemon{
+public class PokemonDeAgua extends Pokemon{
 	String nome;
 	String tipo;
 	int evolucao;
@@ -11,7 +11,7 @@ public class InicialDeAgua extends Pokemon{
 	int strength;
 	int armorClass;
 	
-	InicialDeAgua(){
+	PokemonDeAgua(){
 		this.nome="Squirtle";
 		this.tipo="Agua";
 		this.evolucao=1;
