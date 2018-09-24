@@ -1,5 +1,5 @@
 
-public class InicialDeGrama extends Pokemon{
+public class PokemonDeGrama extends Pokemon{
 	String nome;
 	String tipo;
 	int evolucao;
@@ -11,7 +11,7 @@ public class InicialDeGrama extends Pokemon{
 	int strength;
 	int armorClass;
 	
-	InicialDeGrama(){
+	PokemonDeGrama(){
 		this.nome="Bulbassauro";
 		this.tipo="Grama";
 		this.evolucao=1;
