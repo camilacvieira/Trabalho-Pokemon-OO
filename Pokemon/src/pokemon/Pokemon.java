@@ -1,3 +1,5 @@
+package pokemon;
+import java.util.ArrayList;
 
 public class Pokemon {
 	String nome;
@@ -10,4 +12,6 @@ public class Pokemon {
 	int healthPoints;
 	int strength;
 	int armorClass;
+        ArrayList vantagens;
+        ArrayList fraquesas;
 }
