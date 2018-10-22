@@ -10,9 +10,6 @@ package pokemon;
  * @author Arthur
  */
 public interface TipoPokemon {
-    
-    public void tipo1();
-    public void tipo2();
     public void vantagem();
     public void fraquesas();
             
