@@ -1,0 +1,10 @@
+O nosso jogo vai começar com uma historia , o jogador escolherá 3 pokemons de 12, em seguida ele entra em um torneio onde ele
+vai disputar com outros treinadores comandados pelo cpu, onde serão realizadas 4 batalhas, oitavas de final, quartas , semis
+e final. 
+Cada treinador possui 3 pokemons sendo aletoriamente escolhidos, todos com vantagens e desvantages diferentes, o jogo acaba quando
+o jogador perde uma das batalhas ou se ele for capaz de vencer o torneio. 
+No código deixamos uma classe chamada Pikachu para demonstrar como vão ser definidos os pokemons.
+A classe torneio vai ser usada para implementar o sistema do torneio, a classe trabalhopokemon realiza a inicialização do jogo.
+A classe Pokemon é abstract e será o modelo para cada um das classes específicas de cada pokemon.
+A classe TipoPokemon será uma interface, com 4 métodos(vantagens, fraquesas, tipo1 e tipo2), pois para todo pokemon é necessário 
+se ter um tipo específico e respectivamente suas vantagens e fraquesas, por isso a necessidade de utilizar uma interface.
