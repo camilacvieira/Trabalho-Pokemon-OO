@@ -16,6 +16,7 @@ public class Squirtle extends TipoAgua {
 
     public Squirtle() {
         nome = "Squirtle";
+        tipo = "Agua";
         habilidades[0] = "Bubble"; habilidades[1] = "Water Pulse"; habilidades[2] = "Aqua Tail";
     }
     

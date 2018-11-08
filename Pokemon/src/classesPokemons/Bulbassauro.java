@@ -16,6 +16,7 @@ public class Bulbassauro extends TipoPlanta {
 
     public Bulbassauro() {
         nome = "Bulbassauro";
+        tipo = "Planta";
         habilidades[0] = "Vine Whip"; habilidades[1] = "Power Whip"; habilidades[2] = "Seed Bomb";
     }
     

@@ -18,13 +18,14 @@ public class TipoAgua extends Pokemon implements TipoPokemon {
 
     @Override
     public void vantagem() { // retornar array list (lita de tipos, pokemon)
-        
-        
+        // 0-Agua ; 1-Eletrico ; 2-Fogo ; 3-Normal ; 4-Pedra ; 5-Planta ; 6-Psiquico
+        vantagens[0] = 2; vantagens[1] = 4;
     }
 
     @Override
     public void fraquesas() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        // 0-Agua ; 1-Eletrico ; 2-Fogo ; 3-Normal ; 4-Pedra ; 5-Planta ; 6-Psiquico
+        fraquesas[0] = 1; fraquesas[1] = 5;
     }
     
 }

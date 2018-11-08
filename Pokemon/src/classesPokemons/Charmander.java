@@ -16,6 +16,7 @@ public class Charmander extends TipoFogo {
 
     public Charmander() {
         nome = "Charmander";
+        tipo = "Fogo";
         habilidades[0] = "Flamethrower"; habilidades[1] = "Flame Burst"; habilidades[2] = "Ember";
     }
     
