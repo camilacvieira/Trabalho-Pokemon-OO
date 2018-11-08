@@ -15,7 +15,13 @@ import tiposPokemon.TipoNormal;
 public class Meowth extends TipoNormal {
 
     public Meowth() {
-        nome = "Pikachu";
+        nome = "Meowth";
+        nomeTipo="Normal";
+          tipo = 3;   // 0-Agua ; 1-Eletrico ; 2-Fogo ; 3-Normal ; 4-Pedra ; 5-Planta ; 6-Psiquico
+        //habilidades[0] = ""; habilidades[1] = ""; habilidades[2] = "";
+        habilidades[0] ="Bite";
+        habilidades[1]="Scratch";
+        habilidades[2]="DarkPulse";
         
     }
     
