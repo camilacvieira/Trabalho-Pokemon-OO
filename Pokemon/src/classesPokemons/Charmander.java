@@ -15,8 +15,8 @@ import tiposPokemon.TipoFogo;
 public class Charmander extends TipoFogo {
 
     public Charmander() {
-        nome = "Pikachu";
-        
+        nome = "Charmander";
+        habilidades[0] = "Flamethrower"; habilidades[1] = "Flame Burst"; habilidades[2] = "Ember";
     }
     
   

@@ -15,8 +15,8 @@ import tiposPokemon.TipoPlanta;
 public class Bulbassauro extends TipoPlanta {
 
     public Bulbassauro() {
-        nome = "Pikachu";
-        
+        nome = "Bulbassauro";
+        habilidades[0] = "Vine Whip"; habilidades[1] = "Power Whip"; habilidades[2] = "Seed Bomb";
     }
     
   

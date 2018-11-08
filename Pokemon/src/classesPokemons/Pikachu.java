@@ -16,7 +16,8 @@ public class Pikachu extends TipoEletrico {
 
     public Pikachu() {
         nome = "Pikachu";
-        
+        //habilidades[0] = ""; habilidades[1] = ""; habilidades[2] = "";
+        habilidades[0] = "Thunder Schock"; habilidades[1] = "Quick Attack"; habilidades[2] = "Thunderbolt";
     }
     
   

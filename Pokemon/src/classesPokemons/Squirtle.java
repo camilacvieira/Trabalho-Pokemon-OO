@@ -15,8 +15,8 @@ import tiposPokemon.TipoAgua;
 public class Squirtle extends TipoAgua {
 
     public Squirtle() {
-        nome = "Pikachu";
-        
+        nome = "Squirtle";
+        habilidades[0] = "Bubble"; habilidades[1] = "Water Pulse"; habilidades[2] = "Aqua Tail";
     }
     
   
