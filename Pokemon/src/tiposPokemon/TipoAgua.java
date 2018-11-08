@@ -3,20 +3,23 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package pokemon;
+package tiposPokemon;
+
+import pokemon.TipoPokemon;
+import pokemon.Pokemon;
 
 /**
  *
  * @author ice
  */
-public class TipoFogo extends Pokemon implements TipoPokemon {
+public class TipoAgua extends Pokemon implements TipoPokemon {
 
    
 
     @Override
     public void vantagem() { // retornar array list (lita de tipos, pokemon)
         
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override

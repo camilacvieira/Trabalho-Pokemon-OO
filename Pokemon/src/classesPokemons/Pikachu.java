@@ -1,4 +1,6 @@
-package pokemon;
+package classesPokemons;
+import pokemon.Pokemon;
+import tiposPokemon.TipoEletrico;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -10,7 +12,7 @@ package pokemon;
  *
  * @author Arthur
  */
-public class Pikachu extends TipoFogo {
+public class Pikachu extends TipoEletrico {
 
     public Pikachu() {
         nome = "Pikachu";
