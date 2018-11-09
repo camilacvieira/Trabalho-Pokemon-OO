@@ -10,5 +10,22 @@ package pokemon;
  * @author ice
  */
 public class Batalha {
+
+    public Batalha(Pokemon p1 , Pokemon p2) {
     
+    }
+    //void vantagem e desvantagem 
+  //  void round
+   // void comecaBatalha{
+    
+   // while (p1.hp >= 0 || p2.hp >=0)
+   //   round();
+    
+            //pokemon1 escolhe entre tres ataques
+            //pokemon2 escolhe entre tres ataques
+      
 }
+    
+    
+             
+
