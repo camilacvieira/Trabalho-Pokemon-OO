@@ -10,7 +10,7 @@ public class Pokemon {
         public int evolucao;
 	public String[] habilidades = new String[3];
         public float[] multiHabilidades = {2,1.5f,1};
-	public int manaPoints;
+	public int[] manaPoints = {75,50,25};
 	public int healthPoints;
 	public float dano = 10;
 	public int armorClass;
