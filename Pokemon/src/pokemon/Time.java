@@ -18,6 +18,7 @@ public class Time {
     public Time(Pokemon p1, Pokemon p2, Pokemon p3) {
         pokemons.add(p1);
         pokemons.add(p2);
+        
         pokemons.add(p3);
     }
     
