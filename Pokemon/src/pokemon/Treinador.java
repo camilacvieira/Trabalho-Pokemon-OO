@@ -13,18 +13,25 @@ import java.util.List;
  * @author Arthur
  */
 public class Treinador {
-    private float vidaTotal;    
-    private Time t = new Time();
+    private ArrayList<Pokemon> time;
 	
-	public Treinador(Time t) {
-            this.t = t;
-            vidaTotal = t.pokemons.get(0).healthPoints + t.pokemons.get(1).healthPoints + t.pokemons.get(2).healthPoints;
-		
+	public Treinador(Pokemon pokemon) {
+		time = new ArrayList<Pokemon>();
+		time.add(pokemon);
 	}
-        
-        public void calculaVida(){
-            vidaTotal = t.pokemons.get(0).healthPoints + t.pokemons.get(1).healthPoints + t.pokemons.get(2).healthPoints;
-        }
 	
+	public void addPokemon(Pokemon pokemon) {
+		
+			time.add(pokemon);          
+	}
+	
+	public Pokemon getPokemon(int index) {
+		return time.get(index);
+	}
+	
+	public int getTimeSize() {
+		return time.size();
+	}
+
     
 }
