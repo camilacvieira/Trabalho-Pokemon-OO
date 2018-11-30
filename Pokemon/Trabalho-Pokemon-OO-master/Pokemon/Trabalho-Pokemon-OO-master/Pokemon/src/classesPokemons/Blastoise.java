@@ -12,17 +12,18 @@ import tiposPokemon.TipoAgua;
  *
  * @author Arthur
  */
-public class Vaporeon extends TipoAgua {
+public class Blastoise extends TipoAgua {
 
-    public Vaporeon() {
-        nome = "Vaporeon";
-        nomeTipo="Agua";
-        this.healthPoints =100;
+    public Blastoise() {
+        nome = "Blastoise";
+             nomeTipo="Agua";
           tipo = 0;   // 0-Agua ; 1-Eletrico ; 2-Fogo ; 3-Normal ; 4-Pedra ; 5-Planta ; 6-Psiquico
         //habilidades[0] = ""; habilidades[1] = ""; habilidades[2] = "";
-        habilidades[0] ="WaterGun";
-        habilidades[1]="HydroPump";
-        habilidades[2]="AquaTail";
+        habilidades[0] ="FlashCannon";
+        habilidades[1]="IceBeam";
+        habilidades[2]="HydroPump";
+        
+        
     }
     
   

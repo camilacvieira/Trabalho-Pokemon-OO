@@ -12,11 +12,13 @@ import tiposPokemon.TipoFogo;
  *
  * @author Arthur
  */
-public class Flareon extends TipoFogo {
+public class Charmander extends TipoFogo {
 
-    public Flareon() {
-        nome = "Pikachu";
-        
+    public Charmander() {
+        nome = "Charmander";
+        nomeTipo = "Fogo";
+        tipo = 2; // 0-Agua ; 1-Eletrico ; 2-Fogo ; 3-Normal ; 4-Pedra ; 5-Planta ; 6-Psiquico
+        habilidades[0] = "Flamethrower"; habilidades[1] = "Flame Burst"; habilidades[2] = "Ember";
     }
     
   
