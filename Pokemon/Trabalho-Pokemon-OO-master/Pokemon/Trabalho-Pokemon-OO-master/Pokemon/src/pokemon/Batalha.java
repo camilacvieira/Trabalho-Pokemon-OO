@@ -11,35 +11,18 @@ package pokemon;
  */
 public class Batalha {
 
-    public Batalha(Treinador t1 , Treinador t2) {
-        
-        
-    }
+    public Batalha(Pokemon p1 , Pokemon p2) {
     
-    public void checaVantagem(Pokemon p1, Pokemon p2){
-        
-        
     }
-    
-    public void checadesVantagem(Pokemon p1, Pokemon p2){
-        
-        
-    }
-    
-    public void round(Pokemon p1 , Pokemon p2){
-        
-        
-    }
-    
-    public void ataque(Pokemon p1, Pokemon p2){
-        
-        
-    }
-    
     //void vantagem e desvantagem 
   //  void round
    // void comecaBatalha{
     
+    void comecaBatalha(){
+     
+        
+        
+    }
    // while (p1.hp >= 0 || p2.hp >=0)
    //   round();
     

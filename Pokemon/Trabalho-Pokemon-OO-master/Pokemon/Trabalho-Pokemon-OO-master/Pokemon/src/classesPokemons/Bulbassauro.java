@@ -12,11 +12,13 @@ import tiposPokemon.TipoPlanta;
  *
  * @author Arthur
  */
-public class Venossauro extends TipoPlanta {
+public class Bulbassauro extends TipoPlanta {
 
-    public Venossauro() {
-        nome = "Pikachu";
-        
+    public Bulbassauro() {
+        nome = "Bulbassauro";
+        nomeTipo = "Planta";
+        tipo = 5; // 0-Agua ; 1-Eletrico ; 2-Fogo ; 3-Normal ; 4-Pedra ; 5-Planta ; 6-Psiquico
+        habilidades[0] = "Vine Whip"; habilidades[1] = "Power Whip"; habilidades[2] = "Seed Bomb";
     }
     
   

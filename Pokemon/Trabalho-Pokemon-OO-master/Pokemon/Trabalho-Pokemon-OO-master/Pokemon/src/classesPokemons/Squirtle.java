@@ -12,11 +12,13 @@ import tiposPokemon.TipoAgua;
  *
  * @author Arthur
  */
-public class Gyrados extends TipoAgua {
+public class Squirtle extends TipoAgua {
 
-    public Gyrados() {
-        nome = "Pikachu";
-        
+    public Squirtle() {
+        nome = "Squirtle";
+        nomeTipo = "Agua";
+        tipo = 0; // 0-Agua ; 1-Eletrico ; 2-Fogo ; 3-Normal ; 4-Pedra ; 5-Planta ; 6-Psiquico
+        habilidades[0] = "Bubble"; habilidades[1] = "Water Pulse"; habilidades[2] = "Aqua Tail";
     }
     
   

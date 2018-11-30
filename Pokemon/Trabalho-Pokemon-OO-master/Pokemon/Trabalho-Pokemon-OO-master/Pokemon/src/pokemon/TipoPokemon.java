@@ -1,24 +1,16 @@
-package classesPokemons;
-import pokemon.Pokemon;
-import tiposPokemon.TipoPsiquico;
-
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package pokemon;
 
 /**
  *
  * @author Arthur
  */
-public class Mewtwo extends TipoPsiquico {
-
-    public Mewtwo() {
-        nome = "Pikachu";
-        
-    }
-    
-  
-    
+public interface TipoPokemon {
+    public void vantagem();
+    public void fraquesas();
+            
 }
