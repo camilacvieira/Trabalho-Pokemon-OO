@@ -16,6 +16,7 @@ public class Venossauro extends TipoPlanta {
 
     public Venossauro() {
         nome = "Pikachu";
+         this.healthPoints =150;
         
     }
     
